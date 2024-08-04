@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <nav>
+        <ul >
+            <li class="navbar" ><img src="https://www.edigitalagency.com.au/wp-content/uploads/Spotify_Logo-png-RGB-Green.png"></li>
+            <i class="fa-solid fa-house"></i>
+            <li class="line">Home</li>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <li class="line">About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Best Punjabi Songs</h1>
+            <div class="songitem">
+                <img src="https://lyricsinventory.com/wp-content/uploads/2023/09/Lalkaara-Lyrics.jpg">
+                <span class="songName">Lalkara</span> 
+                <span class="songplay">2:40</span>
+                <span class="play"><i class="fa-solid fa-play" id="0"></i></span>
+            </div>
+            <div class="songitem">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3GDvRJMMLesJOf0x1fpkDrqe-9_bUrcJgpZt_cmQW1IbjvGxcWMIWxFiKHOud34n7Z-N8RWhzEHgYqMjRQVBHOGyuE5m2dvcrROaDJjIRlrHeEiZrGewoIEm7dJI7pMLvoriaesSOj6BeKu7lO7Cckq2NlkJAVVvhOCfiVOnBQd-nkfprsJNSKQrcIA/s16000-rw/Winning%20Speech%20Lyrics%20Karan%20Aujla.jpg">
+                <span class="songName">Softly</span> 
+                <span class="songplay">2:42</span>
+                <span class="play"><i class="fa-solid fa-play" id="1"></i></span>
+            </div>
+            <div class="songitem">
+                <img src="https://i1.sndcdn.com/artworks-vVQBevz7rwg0zV5c-9N8Wig-t500x500.jpg" style="width:74px">
+                <span class="songName">Excuses</span> 
+                <span class="songplay">3:00</span>
+                <span class="play"><i class="fa-solid fa-play" id="2"></i></span>
+            </div>
+            <div class="songitem">
+                <img src="https://m.media-amazon.com/images/M/MV5BYjk2NDk0NWItMjQzZC00NjQ5LTg3MjgtZTVhODg2YTFlNjU0XkEyXkFqcGdeQXVyMzYzMTM1NTA@.jpg" style="width:70px">
+                <span class="songName">Lover</span> 
+                <span class="songplay">2:42</span>
+                <span class="play"><i class="fa-solid fa-play" id="3"></i></span>
+            </div>
+            <div class="songitem">
+                <img src="https://lyricsinventory.com/wp-content/uploads/2023/09/Lalkaara-Lyrics.jpg">
+                <span class="songName">Born to shine</span> 
+                <span class="songplay">2:40</span>
+                <span class="play"><i class="fa-solid fa-play" id="4"></i></span>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottomplay">
+        <input type="range" name="range" id="player" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward" id="back"></i>
+            <i class="fa-solid fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="https://media.tenor.com/jEPm7jX_1y8AAAAM/colorful-waves.gif" alt="music playing" style="height:30px; width:30px;"> 
+            <span id="masterSong">Lalkara - Diljit Dosanjh</span>
+        </div>
+    </div>
+</body>
+</html>
